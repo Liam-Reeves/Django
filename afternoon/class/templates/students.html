@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    </style>    
+</head>
+<body>
+<h2>Students list</h2>
+<table>
+    <tr>
+        <td>Name</td>
+        <td>Number</td>
+        <td>Location</td>
+    </tr>
+    {% for kk in pupil %}
+        
+    <tr>
+        <td>{{ kk.name }}</td>
+        <td>{{ kk.number }}</td>
+        <td>{{ kk.location }}</td>
+    </tr>
+        
+        
+    {% endfor %}
+   
+</table>
+
+</body>
+</html>

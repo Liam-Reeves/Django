@@ -30,3 +30,5 @@ class Assignment(models.Model):
     book = models.CharField(max_length=50)
     pages = models.IntegerField()
     duration = models.IntegerField()
+    def __str__(self):
+        return self.book
